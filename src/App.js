@@ -7,7 +7,7 @@ function App() {
         <p>
             Me llamo React
             y me gusta
-
+            pero no funciona
         </p>
 
       </header>
