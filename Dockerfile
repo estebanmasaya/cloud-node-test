@@ -1,4 +1,4 @@
-FROM node:20.9.0 as builder
+FROM node:21.1
 
 WORKDIR /app
 
@@ -8,7 +8,7 @@ RUN npm install
 
 COPY . .
 
-EXPOSE 3000
+EXPOSE 4000
 
-CMD ["npm", "run", "dev"]
+CMD ["npm", "start"]
 
